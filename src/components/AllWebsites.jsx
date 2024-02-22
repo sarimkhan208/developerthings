@@ -1,0 +1,42 @@
+import React from 'react'
+import WebsiteContainer from './WebsiteContainer'
+import { CSSstyle, UIComponentsWebsites, aiGeneratedComponent, carouselsAndSlider, codeScreenshot, color, icons } from '../data'
+
+const AllWebsites = () => {
+  return (
+    <div className='w-[80%] laptop:w-[80%] mx-auto font-montserret py-[50px] ' >
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] ' >Pre-Built UI Components</h1>
+        <hr className='mb-[30px] mt-[10px] ' />
+        <WebsiteContainer websitesData={UIComponentsWebsites}/>
+
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >AI Generated Components</h1>
+        <hr className='mb-[30px] mt-[10px] ' />
+        <WebsiteContainer websitesData={aiGeneratedComponent}/>
+
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Carousels & Sliders</h1>
+        <hr className='mb-[30px] mt-[10px] ' />
+        <WebsiteContainer websitesData={carouselsAndSlider}/>
+
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Color Palletes</h1>
+        <hr className='mb-[30px] mt-[10px] ' />
+        <WebsiteContainer websitesData={color}/>
+
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Icons</h1>
+        <hr className='mb-[30px] mt-[10px] ' />
+        <WebsiteContainer websitesData={icons}/>
+
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >CSS Styling</h1>
+        <hr className='mb-[30px] mt-[10px] ' />
+        <WebsiteContainer websitesData={CSSstyle}/>
+
+
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Code Screenshots</h1>
+        <hr className='mb-[30px] mt-[10px] ' />
+        <WebsiteContainer websitesData={codeScreenshot}/>
+
+        
+    </div>
+  )
+}
+
+export default AllWebsites
