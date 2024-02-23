@@ -1,40 +1,4 @@
 
-
-export const codeScreenshot = [
-    {
-        name : 'Ray',
-        image : '/ray.png',
-        image2 : '/ray.png',
-        desc : 'Ray is a website that captures and beautifies code screenshots, enhancing their visual appeal and readability, making code snippets more shareable and aesthetically pleasing.',
-        link : 'https://ray.so/'
-    },
-]
-
-
-
-export const color = [
-    {
-        name : 'Coolor',
-        image : '/coolors.png',
-        image2 : 'https://coolors.co/assets/img/logo.svg',
-        desc : 'Coolors is a popular online tool for generating color schemes and palettes, offering a simple and intuitive interface for designers to explore, create, and share harmonious color combinations for their projects.',
-        link : 'https://coolors.co/'
-    },
-    {
-        name : 'Material UI Colors',
-        image : 'https://materialui.co/img/logo.svg',
-        image2 : 'https://materialui.co/img/logo.svg',
-        desc : 'Material UI Colors provides an extensive palette for web design, offering a wide range of colors inspired by Googles Material Design guidelines, aiding in creating visually cohesive and engaging interfaces.',
-        link : 'https://materialui.co/colors/'
-    },
-    {
-        name : 'Color Hunt',
-        image : 'https://colorhunt.co/img/color-hunt-logo-face.svg',
-        desc : 'Color Hunt is a vibrant platform offering curated color palettes for design inspiration, facilitating the exploration and discovery of harmonious color combinations to enhance visual projects.',
-        link : 'https://colorhunt.co/'
-    },
-]
-
 export const UIComponentsWebsites = [
     {
         name : 'Shadcn',
@@ -73,6 +37,46 @@ export const UIComponentsWebsites = [
     },
 ]
 
+export const aiGeneratedComponent = [
+    {
+        name : 'Visme',
+        image : 'https://i.pinimg.com/originals/b5/c4/5f/b5c45f2ef6cf7e1add936966e5c62c66.png',
+        image2 : 'https://i.pinimg.com/originals/b5/c4/5f/b5c45f2ef6cf7e1add936966e5c62c66.png',
+        desc : 'Visme offers animated templates for creating captivating visual content, making it simple to design dynamic presentations, infographics, and more.',
+        link : 'https://www.visme.co/templates/forms-surveys/'
+    },
+    {
+        name : 'v0',
+        image : '/v0.png',
+        image2 : 'https://10015.io/brand/logo-on-light.svg',
+        desc : 'V0 is a website enabling users to input prompts for the creation of fully developed websites, streamlining the website-building process efficiently.',
+        link : 'https://v0.dev/'
+    },
+]
+
+export const color = [
+    {
+        name : 'Coolor',
+        image : '/coolors.png',
+        image2 : 'https://coolors.co/assets/img/logo.svg',
+        desc : 'Coolors is a popular online tool for generating color schemes and palettes, offering a simple and intuitive interface for designers to explore, create, and share harmonious color combinations for their projects.',
+        link : 'https://coolors.co/'
+    },
+    {
+        name : 'Material UI Colors',
+        image : 'https://materialui.co/img/logo.svg',
+        image2 : 'https://materialui.co/img/logo.svg',
+        desc : 'Material UI Colors provides an extensive palette for web design, offering a wide range of colors inspired by Googles Material Design guidelines, aiding in creating visually cohesive and engaging interfaces.',
+        link : 'https://materialui.co/colors/'
+    },
+    {
+        name : 'Color Hunt',
+        image : 'https://colorhunt.co/img/color-hunt-logo-face.svg',
+        desc : 'Color Hunt is a vibrant platform offering curated color palettes for design inspiration, facilitating the exploration and discovery of harmonious color combinations to enhance visual projects.',
+        link : 'https://colorhunt.co/'
+    },
+]
+
 export const icons = [
     {
         name : 'Lucide',
@@ -95,7 +99,6 @@ export const icons = [
         link : 'https://fontawesome.com/'
     },
 ]
-
 
 export const CSSstyle = [
     {
@@ -182,20 +185,12 @@ export const carouselsAndSlider = [
     
 ]
 
-
-export const aiGeneratedComponent = [
+export const codeScreenshot = [
     {
-        name : 'Visme',
-        image : 'https://i.pinimg.com/originals/b5/c4/5f/b5c45f2ef6cf7e1add936966e5c62c66.png',
-        image2 : 'https://i.pinimg.com/originals/b5/c4/5f/b5c45f2ef6cf7e1add936966e5c62c66.png',
-        desc : 'Visme offers animated templates for creating captivating visual content, making it simple to design dynamic presentations, infographics, and more.',
-        link : 'https://www.visme.co/templates/forms-surveys/'
-    },
-    {
-        name : 'v0',
-        image : '/v0.png',
-        image2 : 'https://10015.io/brand/logo-on-light.svg',
-        desc : 'V0 is a website enabling users to input prompts for the creation of fully developed websites, streamlining the website-building process efficiently.',
-        link : 'https://v0.dev/'
+        name : 'Ray',
+        image : '/ray.png',
+        image2 : '/ray.png',
+        desc : 'Ray is a website that captures and beautifies code screenshots, enhancing their visual appeal and readability, making code snippets more shareable and aesthetically pleasing.',
+        link : 'https://ray.so/'
     },
 ]
