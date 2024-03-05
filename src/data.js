@@ -35,6 +35,18 @@ export const UIComponentsWebsites = [
         desc : 'Mantine is a robust React component library, providing developers with a collection of customizable UI components to streamline the process of building modern and responsive web applications.',
         link : 'https://mantine.dev/'
     },
+    {
+        name : 'Universe.io',
+        image : '/universe.io.png',
+        desc : 'Uiverse.io is an online platform providing comprehensive resources and tools for UI/UX designers, fostering creativity and collaboration.',
+        link : 'https://uiverse.io/'
+    },
+    {
+        name : 'Aceternity UI',
+        image : '/aceternity.png',
+        desc : 'UI.Aeternity.com is a platform offering UI/UX design resources and tools tailored for æternity blockchain projects, facilitating seamless development and user-centric design.',
+        link : 'https://ui.aceternity.com/'
+    }
 ]
 
 export const aiGeneratedComponent = [
@@ -52,6 +64,7 @@ export const aiGeneratedComponent = [
         desc : 'V0 is a website enabling users to input prompts for the creation of fully developed websites, streamlining the website-building process efficiently.',
         link : 'https://v0.dev/'
     },
+    
 ]
 
 export const color = [
@@ -150,6 +163,25 @@ export const CSSstyle = [
         desc : 'Pinterest is a social media platform and visual discovery engine designed to help users discover and save creative ideas, inspiration, and interests by "pinning" images or videos to virtual boards.',
         link : 'https://in.pinterest.com/'
     },
+    {
+        name : 'GSAP/React',
+        image : '/gsap.png',
+        desc : 'The GSAP React Resource Center offers guidance, tutorials, and components for integrating GreenSock Animation Platform (GSAP) into React applications seamlessly.',
+        link : 'https://gsap.com/resources/React/'
+    },
+    {
+        name : 'Get Waves',
+        image : '/getwaves.png',
+        desc : 'GetWaves.io is a web-based tool allowing users to generate SVG wave shapes effortlessly, enhancing visual appeal for websites and designs.',
+        link : 'https://getwaves.io/'
+    },
+    {
+        name : 'Magic Patther Design',
+        image : '/magicPattern.png',
+        desc : 'MagicPattern.Design provides a collection of creative tools for designers, including generators for unique patterns, gradients, and illustrations, fostering imaginative and customizable visual elements.',
+        link : 'https://www.magicpattern.design/tools'
+    }
+    
 ]
 
 export const carouselsAndSlider = [
@@ -194,3 +226,10 @@ export const codeScreenshot = [
         link : 'https://ray.so/'
     },
 ]
+
+// {
+//     name : '',
+//     image : '',
+//     desc : '',
+//     link : ''
+// }
