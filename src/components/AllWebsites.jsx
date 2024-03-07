@@ -4,7 +4,7 @@ import { CSSstyle, UIComponentsWebsites, aiGeneratedComponent, carouselsAndSlide
 
 const AllWebsites = () => {
   return (
-    <div className='w-[80%] laptop:w-[80%] mx-auto font-montserret py-[50px] ' >
+    <div className='w-[95%] laptop:w-[80%] mx-auto font-montserret py-[50px] ' >
         <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] ' >Pre-Built UI Components</h1>
         <hr className='mb-[30px] mt-[10px] ' />
         <WebsiteContainer websitesData={UIComponentsWebsites}/>

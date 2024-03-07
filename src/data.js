@@ -180,6 +180,12 @@ export const CSSstyle = [
         image : '/magicPattern.png',
         desc : 'MagicPattern.Design provides a collection of creative tools for designers, including generators for unique patterns, gradients, and illustrations, fostering imaginative and customizable visual elements.',
         link : 'https://www.magicpattern.design/tools'
+    },
+    {
+        name :'Super Designer Tools',
+        image : '/superDesignerTool.png',
+        desc : 'SuperDesigner.co offers a suite of user-friendly design tools for various creative needs, including image editing, graphic design, and mockup creation.',
+        link : 'https://superdesigner.co/tools'
     }
     
 ]

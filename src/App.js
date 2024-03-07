@@ -11,8 +11,8 @@ function App() {
   }, []);
   return (
     <>
-      <Navbar/>
-      <MainRoute/>
+    <Navbar/>
+    <MainRoute/>
     </>
   );
 }
