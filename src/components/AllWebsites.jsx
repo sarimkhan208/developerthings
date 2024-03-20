@@ -1,6 +1,6 @@
 import React from 'react'
 import WebsiteContainer from './WebsiteContainer'
-import { CSSstyle, UIComponentsWebsites, aiGeneratedComponent, carouselsAndSlider, codeScreenshot, color, icons } from '../data'
+import { CSSstyle, UIComponentsWebsites, aiGeneratedComponent, aiTools, carouselsAndSlider, codeScreenshot, color, icons } from '../data'
 
 const AllWebsites = () => {
   return (
@@ -33,6 +33,11 @@ const AllWebsites = () => {
         <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Code Screenshots</h1>
         <hr className='mb-[30px] mt-[10px] ' />
         <WebsiteContainer websitesData={codeScreenshot}/>
+
+
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >AI Tools</h1>
+        <hr className='mb-[30px] mt-[10px] ' />
+        <WebsiteContainer websitesData={aiTools}/>
 
         
     </div>

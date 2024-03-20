@@ -18,7 +18,7 @@ const Cards = ({ name, link, image, desc }) => {
   };
 
   return (
-    <div style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" }} className='card cursor-pointer font-montserret overflow-hidden' >
+    <div style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" }} className='card h-auto rounded-xl cursor-pointer font-montserret overflow-hidden' >
       
         <div className='h-[130px] laptop:h-[200px] w-[100%] overflow-hidden border-b' ><img className='h-[100%] w-[100%] hover:scale-110 ease-in-out duration-300' src={image} alt='image' /> </div>
         <div className='p-[7px] laptop:p-[20px] bg-white  ' >

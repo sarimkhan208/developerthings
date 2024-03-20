@@ -186,7 +186,44 @@ export const CSSstyle = [
         image : '/superDesignerTool.png',
         desc : 'SuperDesigner.co offers a suite of user-friendly design tools for various creative needs, including image editing, graphic design, and mockup creation.',
         link : 'https://superdesigner.co/tools'
+    },
+    {
+        name : 'AOS',
+        image : '/aos.png',
+        desc : 'AOS is a lightweight JavaScript library for smooth animations triggered by scrolling, enhancing user experience on web pages.',
+        link : 'https://michalsnik.github.io/aos/'
+    },
+    {
+        name : 'Locomotive.ca',
+        image : '/locomotive.png',
+        desc : 'Locomotive Scroll is a smooth-scrolling JavaScript library for creating immersive and elegant scrolling experiences on web pages.',
+        link : 'https://locomotivemtl.github.io/locomotive-scroll/'
+    },
+    {
+        name : 'Gradient Magic',
+        image : '/gradient.png',
+        desc : 'Gradient Magic is a tool for generating vibrant and customizable background gradients, enhancing visual appeal for websites and designs.',
+        link : 'https://www.gradientmagic.com/'
+    },
+    {
+        name : 'Humaaans',
+        image : '/humaaans.png',
+        desc : 'Humaaans offers a design library where users can mix and match illustrations of people, creating customizable and diverse characters for various design projects.',
+        link : 'https://humaaans.com/'
+    },
+    {
+        name : 'The Noun Project',
+        image : '/thenoun.png',
+        desc : 'The Noun Project provides a vast collection of icons and photos covering a wide range of topics, facilitating visual communication for diverse projects.',
+        link : 'https://thenounproject.com/'
+    },
+    {
+        name : 'unDraw',
+        desc : 'UnDraw offers a collection of customizable illustrations for various needs. Browse and download, with on-the-fly color generation to match your brand identity seamlessly',
+        image : '/undraw.png',
+        link : 'https://undraw.co/illustrations'
     }
+
     
 ]
 
@@ -232,6 +269,29 @@ export const codeScreenshot = [
         link : 'https://ray.so/'
     },
 ]
+
+export const aiTools = [
+    {
+        name : 'Ideogram',
+        image : '/aiTools.png',
+        desc : '"Ideogram.ai Explore is an image and logo generator platform, offering creative tools for custom designs and branding solutions."',
+        link : 'https://ideogram.ai/t/explore'
+    },
+    {
+        name : `There's an AI for that`,
+        image : '/thereAI.png',
+        desc : `"There's an AI For That is an AI toolbox hub, providing a range of artificial intelligence tools for various applications and industries."`,
+        link : 'https://theresanaiforthat.com/'
+    },
+    {
+        name : 'Galileo AI',
+        image : '/galileo.png',
+        desc : '"Galileo AI is a UI generation platform facilitating rapid design ideation with intuitive tools for effortless and efficient user interface creation."',
+        link : 'https://www.usegalileo.ai/explore'
+    }
+]
+
+
 
 // {
 //     name : '',
