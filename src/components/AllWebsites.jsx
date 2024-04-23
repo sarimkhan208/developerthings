@@ -13,6 +13,10 @@ const AllWebsites = () => {
         <hr className='mb-[30px] mt-[10px] ' />
         <WebsiteContainer websitesData={aiGeneratedComponent}/>
 
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Your Webiste Animation</h1>
+        <hr className='mb-[30px] mt-[10px] ' />
+        <WebsiteContainer websitesData={animations}/>
+
         <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Your Website Carousels & Sliders</h1>
         <hr className='mb-[30px] mt-[10px] ' />
         <WebsiteContainer websitesData={carouselsAndSlider}/>
@@ -33,11 +37,6 @@ const AllWebsites = () => {
         <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Your Webiste Background</h1>
         <hr className='mb-[30px] mt-[10px] ' />
         <WebsiteContainer websitesData={background}/>
-
-
-        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Your Webiste Animation</h1>
-        <hr className='mb-[30px] mt-[10px] ' />
-        <WebsiteContainer websitesData={animations}/>
 
 
         <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Code Screenshots</h1>

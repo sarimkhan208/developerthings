@@ -51,7 +51,8 @@ export const UIComponentsWebsites = [
         name : 'Daisy UI',
         image : '/daisyui.png',
         desc : "DaisyUI Components: Explore a rich library of customizable UI elements, simplifying web development with modern, responsive designs and intuitive features.",
-        link : 'https://daisyui.com/components/'
+        link : 'https://daisyui.com/components/',
+        isNew : true,
     }
 ]
 
@@ -268,55 +269,56 @@ export const animations = [
         name : 'AOS',
         image : '/aos.png',
         desc : 'AOS is a lightweight JavaScript library for smooth animations triggered by scrolling, enhancing user experience on web pages.',
-        link : 'https://michalsnik.github.io/aos/'
+        link : 'https://michalsnik.github.io/aos/',
+        isNew : true
     },
     {
         name : 'Locomotive.ca',
         image : '/locomotive.png',
         desc : 'Locomotive Scroll is a smooth-scrolling JavaScript library for creating immersive and elegant scrolling experiences on web pages.',
-        link : 'https://locomotivemtl.github.io/locomotive-scroll/'
+        link : 'https://locomotivemtl.github.io/locomotive-scroll/',
+        isNew : true
     },
     {
         name : 'GSAP/React',
         image : '/gsap.png',
         desc : 'The GSAP React Resource Center offers guidance, tutorials, and components for integrating GreenSock Animation Platform (GSAP) into React applications seamlessly.',
-        link : 'https://gsap.com/resources/React/'
+        link : 'https://gsap.com/resources/React/',
+        isNew : true
     },
     {
         name : 'Magic CSS',
         image : '/magiccss.png',
         desc : 'Magic project explores the whimsical world of illusions, captivating with stunning visuals and interactive experiences. Discover the enchantment!',
-        link : 'https://www.minimamente.com/project/magic/'
+        link : 'https://www.minimamente.com/project/magic/',
+        isNew : true
     },
     {
         name : 'Animate CSS',
         image : '/animate.png',
         desc : "Animate.style offers a library of lightweight CSS animations for web projects, enabling easy integration and enhancing user experience with smooth, eye-catching effects.",
-        link : 'https://animate.style/'
+        link : 'https://animate.style/',
+        isNew : true
     },
     {
         name : 'Angry CSS',
         image : '/angrycss.png',
         desc : "AngryTools CSS Animation Generator simplifies creating custom CSS animations with intuitive controls, empowering developers to bring websites to life effortlessly.",
-        link : 'https://angrytools.com/css/animation/'
+        link : 'https://angrytools.com/css/animation/',
+        isNew : true
     },
 
     {
         name : 'Animista',
         image : '/animista.png',
         desc : "Animista provides a user-friendly interface for generating CSS animations like 'Shadow Inset', allowing easy customization to enhance web design aesthetics.",
-        link : 'https://animista.net/play/basic/shadow-inset/shadow-inset-tr'
+        link : 'https://animista.net/play/basic/shadow-inset/shadow-inset-tr',
+        isNew : true,
     },
     
 ]
 
 export const background = [
-    {
-        name : 'Animated Background',
-        image : '/animate.png',
-        desc : "AnimatedBG offers dynamic background animations for websites, enriching user experience and adding visual appeal with seamless, customizable effects.",
-        link : 'https://animatedbackgrounds.me/'
-    },
     {
         name : 'Magic Patther Design',
         image : '/magicPattern.png',
