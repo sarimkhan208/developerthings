@@ -163,48 +163,14 @@ export const CSSstyle = [
         desc : 'Pinterest is a social media platform and visual discovery engine designed to help users discover and save creative ideas, inspiration, and interests by "pinning" images or videos to virtual boards.',
         link : 'https://in.pinterest.com/'
     },
-    {
-        name : 'GSAP/React',
-        image : '/gsap.png',
-        desc : 'The GSAP React Resource Center offers guidance, tutorials, and components for integrating GreenSock Animation Platform (GSAP) into React applications seamlessly.',
-        link : 'https://gsap.com/resources/React/'
-    },
+    
     {
         name : 'Get Waves',
         image : '/getwaves.png',
         desc : 'GetWaves.io is a web-based tool allowing users to generate SVG wave shapes effortlessly, enhancing visual appeal for websites and designs.',
         link : 'https://getwaves.io/'
     },
-    {
-        name : 'Magic Patther Design',
-        image : '/magicPattern.png',
-        desc : 'MagicPattern.Design provides a collection of creative tools for designers, including generators for unique patterns, gradients, and illustrations, fostering imaginative and customizable visual elements.',
-        link : 'https://www.magicpattern.design/tools'
-    },
-    {
-        name :'Super Designer Tools',
-        image : '/superDesignerTool.png',
-        desc : 'SuperDesigner.co offers a suite of user-friendly design tools for various creative needs, including image editing, graphic design, and mockup creation.',
-        link : 'https://superdesigner.co/tools'
-    },
-    {
-        name : 'AOS',
-        image : '/aos.png',
-        desc : 'AOS is a lightweight JavaScript library for smooth animations triggered by scrolling, enhancing user experience on web pages.',
-        link : 'https://michalsnik.github.io/aos/'
-    },
-    {
-        name : 'Locomotive.ca',
-        image : '/locomotive.png',
-        desc : 'Locomotive Scroll is a smooth-scrolling JavaScript library for creating immersive and elegant scrolling experiences on web pages.',
-        link : 'https://locomotivemtl.github.io/locomotive-scroll/'
-    },
-    {
-        name : 'Gradient Magic',
-        image : '/gradient.png',
-        desc : 'Gradient Magic is a tool for generating vibrant and customizable background gradients, enhancing visual appeal for websites and designs.',
-        link : 'https://www.gradientmagic.com/'
-    },
+    
     {
         name : 'Humaaans',
         image : '/humaaans.png',
@@ -291,6 +257,80 @@ export const aiTools = [
     }
 ]
 
+export const animations = [
+    {
+        name : 'AOS',
+        image : '/aos.png',
+        desc : 'AOS is a lightweight JavaScript library for smooth animations triggered by scrolling, enhancing user experience on web pages.',
+        link : 'https://michalsnik.github.io/aos/'
+    },
+    {
+        name : 'Locomotive.ca',
+        image : '/locomotive.png',
+        desc : 'Locomotive Scroll is a smooth-scrolling JavaScript library for creating immersive and elegant scrolling experiences on web pages.',
+        link : 'https://locomotivemtl.github.io/locomotive-scroll/'
+    },
+    {
+        name : 'GSAP/React',
+        image : '/gsap.png',
+        desc : 'The GSAP React Resource Center offers guidance, tutorials, and components for integrating GreenSock Animation Platform (GSAP) into React applications seamlessly.',
+        link : 'https://gsap.com/resources/React/'
+    },
+    {
+        name : 'Magic CSS',
+        image : '/magiccss.png',
+        desc : 'Magic project explores the whimsical world of illusions, captivating with stunning visuals and interactive experiences. Discover the enchantment!',
+        link : 'https://www.minimamente.com/project/magic/'
+    },
+    {
+        name : 'Animate CSS',
+        image : '/animate.png',
+        desc : "Animate.style offers a library of lightweight CSS animations for web projects, enabling easy integration and enhancing user experience with smooth, eye-catching effects.",
+        link : 'https://animate.style/'
+    },
+    {
+        name : 'Angry CSS',
+        image : '/angrycss.png',
+        desc : "AngryTools CSS Animation Generator simplifies creating custom CSS animations with intuitive controls, empowering developers to bring websites to life effortlessly.",
+        link : 'https://angrytools.com/css/animation/'
+    },
+
+    {
+        name : 'Animista',
+        image : '/animista.png',
+        desc : "Animista provides a user-friendly interface for generating CSS animations like 'Shadow Inset', allowing easy customization to enhance web design aesthetics.",
+        link : 'https://animista.net/play/basic/shadow-inset/shadow-inset-tr'
+    },
+    
+]
+
+export const background = [
+    {
+        name : 'Animated Background',
+        image : '/animate.png',
+        desc : "AnimatedBG offers dynamic background animations for websites, enriching user experience and adding visual appeal with seamless, customizable effects.",
+        link : 'https://animatedbackgrounds.me/'
+    },
+    {
+        name : 'Magic Patther Design',
+        image : '/magicPattern.png',
+        desc : 'MagicPattern.Design provides a collection of creative tools for designers, including generators for unique patterns, gradients, and illustrations, fostering imaginative and customizable visual elements.',
+        link : 'https://www.magicpattern.design/tools'
+    },
+    {
+        name :'Super Designer Tools',
+        image : '/superDesignerTool.png',
+        desc : 'SuperDesigner.co offers a suite of user-friendly design tools for various creative needs, including image editing, graphic design, and mockup creation.',
+        link : 'https://superdesigner.co/tools'
+    },
+    
+    {
+        name : 'Gradient Magic',
+        image : '/gradient.png',
+        desc : 'Gradient Magic is a tool for generating vibrant and customizable background gradients, enhancing visual appeal for websites and designs.',
+        link : 'https://www.gradientmagic.com/'
+    },
+]
 
 
 // {

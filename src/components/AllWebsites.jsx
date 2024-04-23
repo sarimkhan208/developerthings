@@ -1,6 +1,6 @@
 import React from 'react'
 import WebsiteContainer from './WebsiteContainer'
-import { CSSstyle, UIComponentsWebsites, aiGeneratedComponent, aiTools, carouselsAndSlider, codeScreenshot, color, icons } from '../data'
+import { CSSstyle, UIComponentsWebsites, aiGeneratedComponent, aiTools, animations, background, carouselsAndSlider, codeScreenshot, color, icons } from '../data'
 
 const AllWebsites = () => {
   return (
@@ -13,11 +13,11 @@ const AllWebsites = () => {
         <hr className='mb-[30px] mt-[10px] ' />
         <WebsiteContainer websitesData={aiGeneratedComponent}/>
 
-        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Carousels & Sliders</h1>
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Your Website Carousels & Sliders</h1>
         <hr className='mb-[30px] mt-[10px] ' />
         <WebsiteContainer websitesData={carouselsAndSlider}/>
 
-        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Color Palletes</h1>
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Your Website Color Palletes</h1>
         <hr className='mb-[30px] mt-[10px] ' />
         <WebsiteContainer websitesData={color}/>
 
@@ -28,6 +28,16 @@ const AllWebsites = () => {
         <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >CSS Styling</h1>
         <hr className='mb-[30px] mt-[10px] ' />
         <WebsiteContainer websitesData={CSSstyle}/>
+
+
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Your Webiste Background</h1>
+        <hr className='mb-[30px] mt-[10px] ' />
+        <WebsiteContainer websitesData={background}/>
+
+
+        <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Your Webiste Animation</h1>
+        <hr className='mb-[30px] mt-[10px] ' />
+        <WebsiteContainer websitesData={animations}/>
 
 
         <h1 className='text-[25px] laptop:text-[40px] font-[600] text-[#263238] mt-[80px] ' >Code Screenshots</h1>
