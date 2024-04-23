@@ -46,6 +46,12 @@ export const UIComponentsWebsites = [
         image : '/aceternity.png',
         desc : 'UI.Aeternity.com is a platform offering UI/UX design resources and tools tailored for æternity blockchain projects, facilitating seamless development and user-centric design.',
         link : 'https://ui.aceternity.com/'
+    },
+    {
+        name : 'Daisy UI',
+        image : '/daisyui.png',
+        desc : "DaisyUI Components: Explore a rich library of customizable UI elements, simplifying web development with modern, responsive designs and intuitive features.",
+        link : 'https://daisyui.com/components/'
     }
 ]
 
