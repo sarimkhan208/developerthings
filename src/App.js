@@ -11,8 +11,10 @@ function App() {
   }, []);
   return (
     <>
-    <Navbar/>
+    <Navbar  />
+    <div className='mt-[80px] ' >
     <MainRoute/>
+    </div>
     </>
   );
 }
