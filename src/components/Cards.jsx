@@ -18,7 +18,7 @@ const Cards = ({ name, link, image, desc,isNew }) => {
   };
 
   return (
-    <div className='h-[350px] font-montserret bg-white laptop:h-[450px] rounded-lg overflow-hidden border ' style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" }} >
+    <div className='h-[350px] font-montserret w-[90%] mx-auto laptop:w-[100%] bg-white laptop:h-[450px] rounded-lg overflow-hidden border ' style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px" }} >
       <Link to={link} target='_blank' >
         <div className='w-[100%] h-[40%] border-b relative ' >
           <img className='w-[100%] h-[100%] object-fill ' src={image} alt={name} />

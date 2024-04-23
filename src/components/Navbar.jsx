@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className='bg-white z-50 fixed top-0 w-[100%]  h-[80px] mb-[120px] border-b border-gray-200 flex justify-between items-center font-montserret gap-x-[5px] px-[10px] laptop:px-[20px] ' >
+    <div className='bg-white z-50 fixed top-0 w-[100%]  h-[70px] border-b border-gray-200 flex justify-between items-center font-montserret gap-x-[5px] px-[10px] laptop:px-[20px] ' >
         <div></div>
         <div>
           <Link to={'/'} >

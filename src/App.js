@@ -4,6 +4,7 @@ import AOS from 'aos';
 import './App.css';
 import Navbar from './components/Navbar';
 import MainRoute from './routes/MainRoute';
+import { Footer } from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -14,6 +15,7 @@ function App() {
     <Navbar  />
     <div className='mt-[80px] ' >
     <MainRoute/>
+    <Footer/>
     </div>
     </>
   );
